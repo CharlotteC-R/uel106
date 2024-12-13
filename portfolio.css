@@ -1,0 +1,102 @@
+body {
+margin : 40px;
+font-family: Arial, "Conthrax SB", sans-
+serif;
+}
+
+
+/* #cacde8 = rouge et #f26160 = bleu-gris */
+
+
+header {
+	font-family: Arial, Times, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	text-align:left;
+	color: #f26160;} 
+	
+
+nav, footer {
+	border: 2.5 px solid #f26160;
+	padding: 10 px}
+
+aside{border: 1 px solid #f26160; }
+
+ 
+li {font-family: Arial, Times, sans-serif;
+	font-size: 14 px;
+	font-weight: normal;
+	text-align: left;
+	color: black;
+	padding:10 pix;}
+
+
+h1 {
+	font-size: 20 px;
+	font-weight: normal;
+  color:#f26160;
+  font-family: "Conthrax SB", Times, serif 
+} 
+
+h2 {
+  font-family: "Conthrax SB", Times, serif;
+  font-size: 18 px;
+  font-weight: normal;
+  color: white; 
+  background-color: #f26160;
+  width: 75 %;
+
+/*fin partie titre*/
+
+
+/*partie texte*/
+p, section, article, aside{
+	font-family: "Arial", Times, sans-serif;
+	font-size: 14 px;
+	font-weight: normal;
+	color: #black;
+} /* */
+
+section, article {text-align:justify;}
+
+strong {
+	font-family: "Arial", Times, sans-serif;
+	font-size: 14 px;
+	font-weight: bold;
+	color: #red ;} /* info importante*/
+/*fin partie texte*/
+
+
+
+/*début image*/
+img {padding-left:25%;}
+/*fin image*/ 
+
+
+/*début partie lien*/
+
+a{
+	font-family: "Arial", Times, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align:justify;
+	padding: 2px 1px 0;
+	}
+
+a:link {
+	color: blue;}
+
+a:visited {
+color: red}
+
+a:focus{
+	color: black}
+	
+/*fin partie lien*/
+
+
+/*partie fond*/
+ol, footer {
+	background-color: #cacde8;
+	width: 50%;}
+/*fin partie fond*/
