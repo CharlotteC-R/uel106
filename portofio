@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<!-- L'en tête de votre page HTML -->
+  <!-- <meta charset="utf-8"> -->
+  <title>Porfolio</title>
+  <link rel="icon" type="image/png" href="media/favicon-clerc-et-net.png" />
+</head>
+
+ <body>
+	<!-- Le corps de votre page HTML -->
+<link rel="stylesheet" type="text/css" href="portfolio.css">  <!--appel d’un fichier CSS externe-->
+
+<header>
+  <h1 id="haut"></h1>
+  <h1>Portfolio</h1> 
+
+
+
+<br>
+<a href="#haut">Vers le haut de la page</a>
+
+<footer>
+<!-- début du footer-->
+	<h1>Contact</h1>
+		<section>Pour me contacter <a href="mailto:charlotte.cornetroussillon@etu.unilim.fr?subject=J'ai visité votre site"> charlotte.cornetroussillon@etu.unilim.fr </a> </section>
+
+	</footer>
+
+	</body>
+
+
+</html>
