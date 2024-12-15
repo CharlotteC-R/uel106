@@ -1,29 +1,65 @@
 body {
 margin : 40px;
-font-family: Arial, "Conthrax SB", sans-
+font-family: Arial, sans-
 serif;
 }
 
-
-/* #cacde8 = rouge et #f26160 = bleu-gris */
+/* #4F90EF = bleu et #f26160 = bleu-gris */
 
 
 header {
-	font-family: Arial, Times, sans-serif;
-	font-size: 22px;
+	font-family: Arial, sans-serif;
 	font-weight: normal;
 	text-align:left;
-	color: #f26160;} 
-	
+	color: white;
+background-color: #4F90EF} 
+
+	.header {
+	color: #white;
+} /*intro-conclusion, sur ma page html mettre : class="header"*/
 
 nav, footer {
-	border: 2.5 px solid #f26160;
+	border: 2.5 px solid #4F90EF;
 	padding: 10 px}
+nav {
+  position: sticky;
+top: 1px;
+  display: flex
+}
 
-aside{border: 1 px solid #f26160; }
+.container {
+  display: grid;
+  grid-template-rows: repeat (4 1fr);
+  
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 1px;
+  background-color: 
+}
+
+
+
+/*partie fond*/
+footer {
+	background-color: #4F90EF;
+	width: 100%}
+/*fin partie fond*/
+
+aside{border: 1 px solid #4F90EF; }
+
+h1 {
+	font-size: 20 px;
+	font-weight: bold;
+  color: white;
+  font-family: Arial, sans-serif 
+} 
 
  
-li {font-family: Arial, Times, sans-serif;
+li {font-family: Arial, sans-serif;
 	font-size: 14 px;
 	font-weight: normal;
 	text-align: left;
@@ -31,27 +67,22 @@ li {font-family: Arial, Times, sans-serif;
 	padding:10 pix;}
 
 
-h1 {
-	font-size: 20 px;
-	font-weight: normal;
-  color:#f26160;
-  font-family: "Conthrax SB", Times, serif 
-} 
+
 
 h2 {
-  font-family: "Conthrax SB", Times, serif;
+  font-family: Arial, serif;
   font-size: 18 px;
   font-weight: normal;
   color: white; 
-  background-color: #f26160;
-  width: 75 %;
+  background-color: #4F90EF;
+  width: 25%;
 
 /*fin partie titre*/
 
 
 /*partie texte*/
 p, section, article, aside{
-	font-family: "Arial", Times, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 14 px;
 	font-weight: normal;
 	color: #black;
@@ -60,10 +91,10 @@ p, section, article, aside{
 section, article {text-align:justify;}
 
 strong {
-	font-family: "Arial", Times, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 14 px;
 	font-weight: bold;
-	color: #red ;} /* info importante*/
+	color: #4F90EF ;} /* info importante*/
 /*fin partie texte*/
 
 
@@ -76,7 +107,7 @@ img {padding-left:25%;}
 /*début partie lien*/
 
 a{
-	font-family: "Arial", Times, sans-serif;
+	font-family: "Arial", sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	text-align:justify;
@@ -95,8 +126,3 @@ a:focus{
 /*fin partie lien*/
 
 
-/*partie fond*/
-ol, footer {
-	background-color: #cacde8;
-	width: 50%;}
-/*fin partie fond*/
