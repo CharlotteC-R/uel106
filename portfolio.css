@@ -16,7 +16,7 @@ background-color: #4F90EF}
 
 	.header {
 	color: #white;
-} /*intro-conclusion, sur ma page html mettre : class="header"*/
+} /* sur ma page html mettre : class="header"*/
 
 nav, footer {
 	border: 2.5 px solid #4F90EF;
@@ -77,6 +77,14 @@ h2 {
   background-color: #4F90EF;
   width: 25%;
 
+h3 {
+  font-family: Arial, serif;
+  font-size: 16 px;
+  font-weight: normal;
+  color: white; 
+  background-color: #4F90EF;
+  width: 25%;
+	
 /*fin partie titre*/
 
 
